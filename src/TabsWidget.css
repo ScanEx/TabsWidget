@@ -1,0 +1,18 @@
+.tabs-widget .tabs-widget-page, .tabs-widget .tabs-widget-tab  {
+    float: left;    
+    cursor: pointer;
+}
+.tabs-widget .tabs-widget-page {
+    padding: 5px;
+    clear: both;
+}
+
+.tabs-widget .tabs-widget-tab {
+    border-top-left-radius: 11px;
+    border-right-style: hidden;
+    border-left: 1px solid darkgrey;
+    border-top: 1px solid darkgrey;
+    border-bottom: 1px solid darkgrey;
+    padding: 5px 15px 5px 15px;
+}
+

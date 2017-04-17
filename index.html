@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Table list</title>
+        <script src="dist/tabs.js" charset="utf-8"></script>
+        <!--script src="external/Translations/translations.js" charset="utf-8"></script -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" charset="utf-8"> 
+        <!--<link rel="stylesheet" href="style.css" charset="utf-8">-->
+        <link rel="stylesheet" href="dist/tabs.css" charset="utf-8">        
+        <style>
+            html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                font-family: Tahoma;
+            }            
+        </style>
+    </head>
+    <body>        
+        <div id="tabs">
+            <div id="options">OPTIONS</div>
+            <div id="results">RESULTS</div>
+	    </div>
+        <script type="text/javascript">
+            var tabs = new Scanex.TabsWidget(document.getElementById('tabs'), {
+                tabs: ['Options', 'Results']
+            });
+        </script>
+    </body>
+</html>
